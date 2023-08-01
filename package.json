@@ -1,0 +1,17 @@
+{
+  "name": "travelholic",
+  "version": "1.0.0",
+  "description": "This website is for travelholic's",
+  "main": "App.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Shruti singh",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.18.2",
+    "mongoose": "^7.2.3",
+    "pug": "^3.0.2"
+  }
+}
