@@ -1,0 +1,85 @@
+ body::before {
+     content: "";
+     position: absolute;
+     top: 0;
+     left: 0;
+     height: 1500px;
+     width: 100%;
+     z-index: -1;
+     background: url(/static/bgg1.jpg) no-repeat center center/cover;
+     opacity: 0.9;
+     background-color: black;
+ }
+
+ .nav {
+     height: 50px;
+     /* background-color: blanchedalmond; */
+     background-image: url(/static/about.jpg);
+     background-color: black;
+ }
+
+ ul {
+     display: flex;
+     flex-direction: row;
+     margin-left: 954px;
+ }
+
+ li {
+     list-style: none;
+     text-align: right;
+     padding: 10px;
+ }
+
+ a {
+     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     color: rgb(255, 255, 255);
+     text-decoration: none;
+     font-size: 23px;
+     font-weight: 500;
+ }
+
+ a:hover {
+     color: brown;
+ }
+
+ .logo img {
+     width: 136px;
+     filter: invert(100%);
+     border-radius: 80px;
+     margin-left: 10px;
+     height: 140px;
+ }
+
+ .next {
+     display: grid;
+     grid-template-areas: 'logo the';
+     /* background-color: bisque; */
+ }
+
+ .container {
+     display: flex;
+     flex-direction: row;
+     top: 0;
+     left: 0;
+ }
+
+ .card {
+    width: 321px;
+    height: 354px;
+    background-color: white;
+    border: 2px solid white;
+    margin-left: 147px;
+    margin-top: 74px;
+ }
+
+ .card-txt {
+     text-align: center;
+ }
+
+ .card img {
+     width: 283px;
+     height: 235px;
+     padding-top: 15px;
+     padding-left: 17px;
+ }
+ 

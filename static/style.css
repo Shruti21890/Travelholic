@@ -1,0 +1,93 @@
+@import url(https://fonts.google.com/specimen/Playfair?preview.text=TRAVELHOLIC&preview.text_type=custom); 
+body::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    background: url(/static/ima2.jpg)no-repeat center center/cover;
+    opacity: 0.9;
+    
+}
+
+.title{
+    font-size: 110px;
+    font-weight: bold;
+    color: rgb(244, 238, 238);
+    text-align: right;
+    margin-top: 250px;
+}
+.h{
+    color: rgb(244, 242, 242);
+    text-align:right;
+    /* margin-bottom: 5%; */
+    font-size: 30px;
+}
+.lala{
+    background-color: rgb(12, 12, 12);
+     padding: 10px;
+     opacity: 0.5;
+     height: 720px;
+     width: 450px;
+     margin-right: 50%;
+}
+.si{
+    list-style: none;
+    text-align: left;
+}
+a{
+    color: rgb(243, 245, 243);
+    padding: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: antiquewhite;
+    font-size: larger;
+}
+h4{
+    font-size: medium;
+    color: aliceblue;
+    font-family: serif;
+}
+.one{
+    display: grid;
+    /* grid-gap: 2rem; */
+    grid-template-areas: 
+    'only onlu';
+}
+.logo img {
+    width: 136px;
+    filter: invert(100%);
+    border-radius: 80px;
+    margin-left: 10px;
+}
+nav{
+    /* background-color: black; */
+    padding: 10px;
+     /* opacity: 0.5; */
+     height: 50px;
+}
+ul{
+   display: flex;
+   flex-direction: row;
+   margin-left: 450px;
+}
+li{
+    list-style: none;
+    text-align: right;
+    
+}
+a{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    font-size: 19px;
+    font-weight: 500;
+}
+a:hover{
+    color: brown;
+}
+
